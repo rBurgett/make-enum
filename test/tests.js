@@ -2,7 +2,7 @@
 
 import should from 'should';
 
-import makeEnum from '../src/index'
+import makeEnum from '../src/index';
 
 describe('makeEnum', () => {
 
@@ -20,7 +20,7 @@ describe('makeEnum', () => {
         it('should contain a matching key/value pair for each param sent in', () => {
 
             const isValid = Object.keys(enumishObj).reduce((b, v) => {
-                return b = (enumishObj[v] === v) ? b : false;;
+                return b = (enumishObj[v] === v) ? b : false;
             }, true);
 
             isValid.should.be.true();
