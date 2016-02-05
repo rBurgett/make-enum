@@ -8,7 +8,7 @@ $ npm install make-enum
 
 ### Usage
 ```
-import makeEnum from 'make-enum';
+import makeEnum from 'make-enum';  // or: var makeEnum = require('make-enum').default;
 
 const colorEnum = makeEnum('red', 'green', 'blue');
 
