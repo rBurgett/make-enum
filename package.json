@@ -1,7 +1,7 @@
 {
   "name": "make-enum",
   "version": "0.1.0",
-  "description": "Simple lib to make enumish things.",
+  "description": "Simple lib for making enumish things.",
   "main": "./lib/index.js",
   "dependencies": {},
   "devDependencies": {
