@@ -2,7 +2,7 @@
   "name": "make-enum",
   "version": "0.1.0",
   "description": "Simple lib to make enumish things.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.4.5",
