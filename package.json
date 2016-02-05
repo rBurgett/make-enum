@@ -1,0 +1,27 @@
+{
+  "name": "make-enum",
+  "version": "0.1.0",
+  "description": "Simple lib to make enumish things.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "should": "^8.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "mocha --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rBurgett/make-enum.git"
+  },
+  "author": "Ryan Burgett",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rBurgett/make-enum/issues"
+  },
+  "homepage": "https://github.com/rBurgett/make-enum#readme"
+}
