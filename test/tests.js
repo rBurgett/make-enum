@@ -38,5 +38,12 @@ describe('makeEnum', () => {
 
         it('should have a method called toList', () => enumishObj.toList.should.be.a.Function());
 
+        describe('the toList method', () => {
+            it('should return a list of all possible enum values', () => {
+                enumishObj.toList().should.be.an.Array();
+                enumishObj.toList().length.should.equal(3);
+            });
+        });
+
     });
 });
