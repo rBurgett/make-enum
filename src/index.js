@@ -5,7 +5,7 @@ const makeEnum = (...vals) => {
             return this[v] ? true : false;
         },
         toList() {
-            return Object.keys(this).filter(k => (k !== 'contains' && k !== 'toList'));
+            return vals;
         }
     });
 
