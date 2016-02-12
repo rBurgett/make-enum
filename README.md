@@ -10,9 +10,14 @@ $ npm install make-enum
 ```
 import makeEnum from 'make-enum';  // or: var makeEnum = require('make-enum').default;
 
+// initialize by passing in a set of strings
 const colorEnum = makeEnum('red', 'green', 'blue');
 
+// get values using dot notation
 console.log(colorEnum.red); // 'red'
+
+// a nonexistent value returns undefined
+console.log(colorEnum.purple); // undefined
 
 // use the contains method to check if a value is valid for that enum
 console.log(colorEnum.contains('red')); // true
