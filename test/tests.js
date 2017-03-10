@@ -20,7 +20,7 @@ describe('makeEnum', () => {
         it('should contain a matching key/value pair for each param sent in', () => {
 
             const isValid = Object.keys(enumishObj).reduce((b, v) => {
-                return b = (enumishObj[v] === v) ? b : false;
+                return (enumishObj[v] === v) ? b : false;
             }, true);
 
             isValid.should.be.true();
